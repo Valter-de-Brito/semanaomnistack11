@@ -8,7 +8,6 @@ const connection = require('./database/connection');
 
 const routes = express.Router();
 
-  
 routes.post('/sessions', SessionController.create);
 
 routes.get('/ongs', OngController.index);
